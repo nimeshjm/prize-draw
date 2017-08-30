@@ -8,3 +8,4 @@ Currently an order is represented by its amount as a primitive int type and the 
 As the requirements grow, this can be refactored; 'orderlineitem' and 'ordergroup' entities can be created.
 
 Cross cutting concerns should also be addressed, e.g.: caching, logging, validation and exception handling.
+A DI framework should also be put in place when the application grows in complexity.
