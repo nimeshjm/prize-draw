@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizeDraw.Domain", "PrizeDraw.Domain\PrizeDraw.Domain.csproj", "{BA51F5F0-82E7-4926-AE85-171DE14E40BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizeDraw.Persistence", "PrizeDraw.Persistence\PrizeDraw.Persistence.csproj", "{98F556DC-F714-456B-9C7D-4E3372D3447D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizeDraw.Console", "PrizeDraw.Console\PrizeDraw.Console.csproj", "{F1C87DD4-7C9D-4E7A-936A-479FAB29156C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizeDraw.Domain.Tests", "PrizeDraw.Domain.Tests\PrizeDraw.Domain.Tests.csproj", "{757E77C4-D357-4E0B-87EE-18675EA1623E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA51F5F0-82E7-4926-AE85-171DE14E40BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA51F5F0-82E7-4926-AE85-171DE14E40BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA51F5F0-82E7-4926-AE85-171DE14E40BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA51F5F0-82E7-4926-AE85-171DE14E40BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F556DC-F714-456B-9C7D-4E3372D3447D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F556DC-F714-456B-9C7D-4E3372D3447D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F556DC-F714-456B-9C7D-4E3372D3447D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F556DC-F714-456B-9C7D-4E3372D3447D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C87DD4-7C9D-4E7A-936A-479FAB29156C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C87DD4-7C9D-4E7A-936A-479FAB29156C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C87DD4-7C9D-4E7A-936A-479FAB29156C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C87DD4-7C9D-4E7A-936A-479FAB29156C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757E77C4-D357-4E0B-87EE-18675EA1623E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757E77C4-D357-4E0B-87EE-18675EA1623E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757E77C4-D357-4E0B-87EE-18675EA1623E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757E77C4-D357-4E0B-87EE-18675EA1623E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
